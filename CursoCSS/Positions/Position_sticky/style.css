@@ -1,0 +1,9 @@
+
+
+.caja-fixed {
+    background-color: red;
+    position: sticky;       /* sticky funciona como fixed se que da en el sitio desde que aparece en la pagina  */
+    opacity: .3;
+    margin: -100px;
+    top: 0;
+}

@@ -1,0 +1,38 @@
+.flex-container2 {          /* Tipos de flex-direction: row(fila), row-reverse(fila-reversa), column(columna), column-reverse(columna-reversa) */
+    display: flex;          /* sirve para hacer que las cajas no se cambien de mediada para adaptarse y siempre tomen la medida especificada */     
+                            /* warp y warp-reverse sirven para que en ves de adpatarse el contenido las cajas se desplacen para arriba con reverse y para abajo con warp */
+    justify-content: space-evenly;    /* tipos de Justify-content: center para centrar, space-around para que dejen un espacio entres ellos y completen la linea space-between igual que around solo que este deja el mayor espacio entra las cajas space-evenly es igual que around solo que en vez de dejar menos espacios por los  laterales va a tener el missmo espacio por todos los laterales */
+    height: 100vh;
+                            /* center: sirve para centrar los onjetos en el eje y, flex-end: sirve para poner los objetos alfinal de la pagina, flex-start: al principio de la pagina, baseline: ws igual que el end solo que este si te permite dejar rriba las cajas que se van adpatando , stretch: por defecto. */
+}
+
+.flex-item2 {
+    background-color: #248;
+    color: #fff;
+    margin: 10px;
+    height: 120px;
+    min-width: 100px;
+    text-align: center;
+    flex-grow: 1;           /* flex-grow: sirvepara decirle que con el espacio sobrante cuantas partes de ese espacio le damos a ese item para que pueda ocupar a lo largo de la pantalla */    
+}
+
+.red {
+    background-color: red;
+    flex-basis: 200px;      /* flex-basis: es como grow hace que la caja aumente o disminuya segun el ancho de maximo que le demos  */
+    flex-shrink: 1;         /* flex-shrink: sirve para hacer que hasta que no llegue la caja a su ancho predeterminado las demas cjas no van a seguir creciendo por el grow */
+}
+
+.orange {
+    background-color: orange;
+    margin-top: auto;              /* con display-flex: margin-top sirve para posicionar si le das un margen automatico se posiconaria abajo */ 
+    height: 150px;
+    width: 150px;
+    order: 1;                      /* order: el que tenga el valor mas alto se va posicionar en el final del main axis */
+}
+
+.green {
+    background-color: green;  
+    align-self: center;         /* aling-self: tiene los mismos valores aling-items y content: baseline... */
+    height: 150px;
+    width: 150px;
+}

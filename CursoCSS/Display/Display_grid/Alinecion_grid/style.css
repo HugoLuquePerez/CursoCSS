@@ -1,0 +1,29 @@
+body {
+    background: radial-gradient(circle,#fff,#ccc);
+    padding: 15px;
+}
+
+.grid-container {
+    display: grid;                                                   /* autofit: sirve para hacer que escale las celdas */
+    grid-template-columns: repeat(3, minmax(120px, 1fr));    /* autofill: sirve para hacer que se creen tantas columnas como puedan caber en la linea */
+    grid-template-rows: repeat(3, 200px);                       /* minmax: par definir el minimo y el maximo de tamaño */
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    border: 3px solid #000;
+    background-color: #333;
+    grid-auto-flow: dense;              /* a las propiedades con content se le puede aplicar tambien space-around space-beetween... */
+    align-content: end;                 /* sirve para alinear el contenido verticalmente */
+    justify-content: end;             /* sirve para alinear el contenido horixontalmente */
+    height: 600px;
+    justify-items: center;              /* sirve para alinear horizontalmente los items del grid container */
+    align-items: center;                /* sirve para alinear verticalmente los items del grid container */
+}
+
+.grid-item {
+    border: 1px solid #000;
+    background-color: #999;
+    font-size: 30px;
+    padding: 50px;
+}
+
+/* justify y align-self sirve para alinear individualmente */

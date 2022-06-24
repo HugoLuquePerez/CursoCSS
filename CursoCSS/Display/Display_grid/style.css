@@ -1,0 +1,33 @@
+body {
+    background: radial-gradient(circle,#fff,#ccc);
+    padding: 15px;
+}
+
+.grid-container {
+    display: grid;                              /* grid: sirve para hacer que se comporte como una tabla */
+    grid-template-rows: repeat(4,150px);      /*  grid-template-rows o columns: sirve para decirle cuanta filas y columnas queremos y su tamaño */
+    grid-template-columns: repeat(2,150px) repeat(2,1fr);     /*  fr sirve y tiene la misma funcion grow */
+    border: 3px solid #000;
+    background-color: #333;
+}
+
+.grid-item {
+    background-color: #999;
+    border: 1px solid #000;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    /* grid-gap: 10px;           short-hand: de las dos de arriba  esta propiedad esta obsoleta*/
+}
+
+.grid-item:first-child {
+    background-color: #900;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.grid-item:nth-child(2) {
+    background-color: #090;     /* grid-column-start grid-column-end grid-row-start grid-row-end */
+    grid-column: 3/3;       /* grid-column y row son una short hand que sirve para decirladesde donde empieza y donde acaba una celda */
+    grid-row: 3/ span 3;    /* span sirve para decirle cuantas columnas o lineas debe ocupar sin necesidad de contarlas */
+}
+

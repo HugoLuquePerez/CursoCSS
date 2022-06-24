@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;      /* display-flex: sive para hacer que el contenido de una caja se adapte a su contenedor si el contenedor tiene varias cajas se posicionan una al lado de la otra*/
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container2 {          /* Tipos de flex-direction: row(fila), row-reverse(fila-reversa), column(columna), column-reverse(columna-reversa) */
+    display: flex;          /* sirve para hacer que las cajas no se cambien de mediada para adaptarse y siempre tomen la medida especificada */     
+    flex-flow: row wrap;    /* warp y warp-reverse sirven para que en ves de adpatarse el contenido las cajas se desplacen para arriba con reverse y para abajo con warp */
+    justify-content: space-between;    /* tipos de Justify-content: center para centrar, space-around para que dejen un espacio entres ellos y completen la linea space-between igual que around solo que este deja el mayor espacio entra las cajas space-evenly es igual que around solo que en vez de dejar menos espacios por los  laterales va a tener el missmo espacio por todos los laterales */
+    height: 100vh;
+    align-items: flex-start;    /* center: sirve para centrar los onjetos en el eje y, flex-end: sirve para poner los objetos alfinal de la pagina, flex-start: al principio de la pagina, baseline: ws igual que el end solo que este si te permite dejar rriba las cajas que se van adpatando , stretch: por defecto. */
+}
+
+.flex-item2 {
+    background-color: #248;
+    color: #fff;
+    margin: 10px;
+    height: 120px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}

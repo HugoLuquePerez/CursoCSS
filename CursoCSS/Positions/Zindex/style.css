@@ -1,0 +1,17 @@
+.contenedor {
+    width: 300px;                                       /* conflictos z-index padre e hijo para que el hijo este por debajo del padre habria que darle el valor -1 al hijo y al padre no darle z-index */
+    height: 300px;
+    background-color: blue;
+    margin: 40px;
+    position: relative;
+}
+
+.hijo {
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}

@@ -1,0 +1,22 @@
+div {
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+h2 { font-size: 24px; }
+
+.caja2 { background-color: #bbb; }
+
+@media only screen and (max-width: 800px) {
+
+    div{
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+}

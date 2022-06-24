@@ -1,0 +1,9 @@
+                                    /* tipo de displays: block, inline, inline-block, felx, grid, inline-flex, inline-grid */
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid red;
+    background-color: yellow;
+    display: inline-block;
+}

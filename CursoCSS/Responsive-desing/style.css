@@ -1,0 +1,9 @@
+.div-responsive {
+    background-color: #c95;
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+    .div-responsive {
+        background-color: red;
+    }
+}

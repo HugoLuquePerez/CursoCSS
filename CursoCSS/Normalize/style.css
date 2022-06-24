@@ -1,0 +1,9 @@
+h2{
+    display: inline;   /* para hacer que el h2 pase de ser un block a estar en linea */
+
+}
+
+p{
+height: 400px;
+width: 190px;
+}

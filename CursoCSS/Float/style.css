@@ -1,0 +1,31 @@
+.contenedor {
+    float: left;
+}
+
+.contenedor div {
+    width: 50%;
+    float: right;                   /* float hacemos flotar el objeto y le decimos donde queremos que se situe este metodo esta casi obsoleto */
+}
+
+.primario {
+    background-color: red;
+}
+
+.secundario {                     /* en etste caso el float nos sirve para hacer que la imagen flote en contenedor en el lado derecho y al estar la imagen antes queel texto eso hace que el texto envuelva la imagen */
+    background-color: yellow;
+}
+
+.cont {
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid red;
+    background-color: grey;
+    width: 50%;
+    padding: 20px;
+}
+
+.cont img {
+    float: right;
+    width: 300px;
+    margin-right: 18px;
+}

@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: yellow;
+}
+
+.caja1 {
+    background-color: orange;                       /* cuando se posiciona un elemento adquiere cuatro propiedades nuevas top left right bottom y el zindex */
+}
+
+.caja2 {
+    background-color: green;
+    position: relative;                               /* top y left son de mas prioredad que bottom y rigth  */
+    left: 10em;
+}
+
+.caja3 {
+    background-color: lightblue;                       /* zindex es para daler una valor el cual hace que el que sea mayor se va a superponer al otro */
+    position: relative;
+    top: 60px;
+    left: 20px;
+    z-index: 100;
+}
+
+.caja4 {
+    background-color: yellow;
+    position: relative;
+    top: -3em;
+    left: 50em;
+}

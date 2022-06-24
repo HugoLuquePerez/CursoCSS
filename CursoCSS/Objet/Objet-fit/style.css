@@ -1,0 +1,51 @@
+.caja {
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: contain;                    /* objet-fit: contain; sirve para hacer que el contenido en este caso una imagen se ajuste a la caja dejando sus bordes y manteniendos las dimesiones de la foto */
+}
+
+.caja2 {
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.caja2 img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;                     /* objet-fit: cover; es para que el contenido cubra todo la caja adaptandose a las dimensiones de la cja lo mayor posible */
+}
+
+.caja3 {
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.caja3 img {
+    height: 100%;
+    width: 100%;
+    border: solid 2px red;
+    object-fit: none;                       /* obejt-fit none; sirve para hacer que el contenido no le importe las dimensiones de la caja por lo que la imagen no se adapta y se situa en la caja con sus dimensiones ya ocupe mas espacio o menos que el que la caja le proporciona */
+}
+
+.caja3 {
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.caja4 img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: scale-down;                /* objet-fit: scale-down escoge entre none o contain  */
+}

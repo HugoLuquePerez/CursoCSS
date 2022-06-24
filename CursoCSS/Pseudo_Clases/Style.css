@@ -1,0 +1,54 @@
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    transition: all 1s;
+}
+
+.caja1:hover {
+    background-color: darkslateblue;           /* :hover sirve para que si el lmouse esta encima de algo se puede vaiar su estilo */
+    margin: auto;
+}
+
+.caja2 {
+    margin: 20px;
+    display: block;
+}
+
+a:link{
+    color: red;                             /* :link sirve para darle estilo a los links */
+}
+
+a:visited {
+    color: blueviolet;                      /* :visited sirver para los links que son visitados darle estilo */
+}
+
+.caja2 {
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+.caja2:active {
+    background-color: blue;                 /* :active sive para darle estilo a algo mientras esta siendo clicado */
+    width: 600px;
+}
+
+.caja3 {
+    margin: 25px;
+    background-color: lightgray;
+    transition: background 1s;
+}
+
+.caja3:focus {
+    background-color: white;                /* sirve para cuando el elmento este selccionado le podeos dar estilo */
+}
+
+.caja4 {
+    margin: 25px;
+}
+
+.caja4 b:lang(en) {
+    background-color: red;                  /* :lang sive para escoge algo que contenga lapropiedad lang y cambiarle el estilo */
+}

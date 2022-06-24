@@ -1,0 +1,15 @@
+
+.caja1 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    outline: solid blue 10px;                                /* border va a realizar un borde por los laterales de la caja incluyendose en las medidas de la caja outline es lo mismo pero si añadirse a las medidas de la caja */
+}
+
+.caja2 {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

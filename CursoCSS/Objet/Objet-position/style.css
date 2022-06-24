@@ -1,0 +1,13 @@
+.caja {
+    margin: 25px;
+    height: 300px;
+    width: 200px;
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    object-fit: cover;
+    object-position: center;        /* tambien se pueede usar top left rigth y bottom o le puedes decir la distacia que quieres que se mueva pj: 1px  */
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form{    
+    font-size: 25px;
+    background-color: black;
+    width: 100vw ;                              /*unidades de medida relativas:  vh vw  tambu¡ien se puede usar el % que va en medida de las cajas*/
+    height: 100vh;
+}
+
+/* .contact-form__h2{                            unidades de medida:border: px cm mm pt 
+    font-size: 1em;
+    color: white;
+}                                                unidades de medida relativas: rem em vh vw*/
+

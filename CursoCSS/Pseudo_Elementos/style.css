@@ -1,0 +1,57 @@
+.texto::first-line {                     
+    color: blue;                      
+    font-size: 4em;                     
+}                                       
+    /* tipos de Pseudo elementos: ::First-line  / solo para etiquetas de tipo block o similar */
+    /* ::First-letter / only etiquetas Block similares */
+    /* ::placeholder / All */
+    /* ::selection / All */
+    /* ::after / Hijos -Content (necesario) - inline */
+    /* ::before / Hijos -Content (necesario) - inline */
+
+.texto::first-letter {
+    font-size: 8em;
+}
+
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 20px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder {                /* placeholder sirver para haer que en un text area o un input se vea como un texto de ejemplo y le puedes dar estilo */
+    color: red;
+    background-color: yellow;
+}
+
+input::selection {                  /* selection sirve para daele estilo a lo que seleccionemos */
+    color: blue;
+    background-color: yellow;
+}
+
+b {
+    display: inline;
+    padding: 6px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+b::before {
+    content: "Me subscribí";
+    background-color: black;
+    color: white;
+}
+
+b::after {
+    content: "Hugoluque";
+    background-color: black;
+    color: white;
+}

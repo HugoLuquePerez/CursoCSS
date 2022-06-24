@@ -1,0 +1,53 @@
+div {
+    display: block;
+    background-color: yellow;
+    position: absolute;
+    
+}
+
+div div {
+    height: 75px;
+    width: 75px;
+    background-color: yellow;
+}
+
+.contenedor {
+    position: relative;
+    margin: 50px auto;
+    border: 4px solid red;
+    height: 450px;
+    width: 450px;
+    background-color: green
+    ;
+}
+
+/* .caja1 {
+    background-color: orange;
+}
+
+.caja2 {
+    background-color: green;         position-abslute sirve para hacer que la posicion que el navegador tenia reservada para la etiqueta ya no lo tenga reservadoy pase a ocuparlo la siguiente etiqueta 
+    opacity: .6;            
+    top: 10px;                       si le damos top o left teniendo la propiedad de position asolute va a tomar como punto de refenrecia el viewport para variar la posición o para tomar de referecia el contenedor en vez del view port el contenedor debe de estar posicionado relativamente
+}
+
+.caja3 {
+    background-color: lightblue;
+} */
+
+.caja1 {
+    bottom: 0;
+    right: 0;
+}
+
+.caja2 {
+    right: 0;
+}
+
+.caja3 { 
+    bottom: 0;
+}
+
+.caja4 { 
+    left: 0;
+}

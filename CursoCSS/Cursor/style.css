@@ -1,0 +1,12 @@
+.caja {
+    margin: 25px;
+    height: 300px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.caja:active {
+    cursor: row-resize;                 /* Cursor:  https://www.w3schools.com/cssref/tryi... */
+}

@@ -1,0 +1,7 @@
+.caja {
+    margin: 45px;                       /* los colores se puedo poner de diferentes formas: normal, exagesimal, rgb y rgba */
+    width: 200px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: rgb(0, 0, 0);
+}

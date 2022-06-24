@@ -1,0 +1,10 @@
+body {
+    padding-top: 100px;
+}
+
+.caja-fixed {                                 /* se quea en el sitio el texto mientras scrolleas */
+    background-color: red;
+    position: fixed;
+    opacity: .3;
+    margin: -100px;
+}

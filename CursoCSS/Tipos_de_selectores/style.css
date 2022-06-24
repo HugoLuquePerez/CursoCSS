@@ -1,0 +1,38 @@
+/* selector/es {
+    prpiedad: valor;
+} */                                        /* tipos de selectores */
+
+*{                              /* selector universal */                              
+    color: black;
+}
+
+body{                           /* selector de etiqueta */
+    background-color: gray;
+}
+
+.titulo{                        /* selector de clase */
+    color: green;
+}
+
+#titulo2{                       /* selector de id */
+    color: yellow;
+}
+
+[value="hello world"]{          /* selector de atributo */
+    color: blueviolet;
+}
+
+h3 p{                           /* selector descendiente */
+    margin-top: 60px;
+    text-align: center;
+}
+
+h3 p span{
+    color: blue; 
+}
+
+/* selector de pseudo clase para realizar un evento al selector */
+
+h2:hover{
+    color: red;
+}

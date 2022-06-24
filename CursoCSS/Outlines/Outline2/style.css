@@ -1,0 +1,15 @@
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+}
+
+.caja3 {
+    outline: 5px red solid;                                 /* outline va a rellenar el borde por donde pueda es decir dode halla espacio  */
+}
+
+.caja1 {
+    border: 5px solid red;                                  /* border va añadirle mas espacio a la caja para que pueda realizar el borde */
+}

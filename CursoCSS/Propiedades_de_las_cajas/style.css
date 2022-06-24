@@ -1,0 +1,13 @@
+h2 {
+    background-color: red;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;                         /* box-sizing: border-box sirve para ignorar el paddding o margin y que solo cuente con su altura */
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 1em;
+    border: 2px solid blue;            /* tipos de bordes: solid,dashed,groove,inset,outset,ridge */
+    box-shadow: 2px 4px 10px  rgba(255, 0, 0);
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff;
+    transform: rotate(5deg);                /* transform: rotate(5deg) sirve para rotar 5 grados cualquier selector */
+}
